@@ -1,12 +1,16 @@
 ---
-clickhouse:
-  hosts:
-    clickhouse-01:
-      ansible_connection: docker
-
-vector-01:
-  hosts:
-    vector-01:
-     ansible_connection: docker
-
-
+    clickhouse:
+      hosts:
+        clickhouse-01:
+          ansible_host: 51.250.66.212
+          ansible_user: centos
+    vector:
+      hosts:
+        vector-01:
+          ansible_host: 51.250.7.101
+          ansible_user: centos
+    lighthouse:
+      hosts:
+        lighthouse-01:
+          ansible_host: 51.250.94.50
+          ansible_user: centos
