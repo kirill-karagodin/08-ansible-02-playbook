@@ -1,5 +1,3 @@
-# Домашнее задание к занятию "08.02 Работа с Playbook"
-## devops-netology
 ### performed by Kirill Karagodin
 
 
